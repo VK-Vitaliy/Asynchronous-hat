@@ -1,0 +1,25 @@
+{
+    "orders": [
+        {
+            "item": "pixel",
+            "quantity": "4",
+            "price": "27800",
+            "buyer": "Vitaliy",
+            "date": "15.06.2023"
+        },
+        {
+            "item": "REDMI",
+            "quantity": "2",
+            "price": "31444",
+            "buyer": "Рћleg",
+            "date": "22.05.2023"
+        },
+        {
+            "item": "монитор",
+            "quantity": "2",
+            "price": "31444",
+            "buyer": "Иван",
+            "date": "22.05.2023"
+        }
+    ]
+}
