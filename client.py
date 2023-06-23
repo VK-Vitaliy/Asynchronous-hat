@@ -10,7 +10,7 @@ from common.variables import DEFAULT_IP_ADDRESS, DEFAULT_PORT, PRESENCE, ACTION,
 
 def create_presence(account_name='Guest'):
     '''
-    ФункцияВозвращает сервисное сообщение к серверу о присутствии.
+    Функция возвращает сервисное сообщение к серверу о присутствии.
     :param account_name: str
     :return: dict
     '''

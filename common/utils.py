@@ -6,7 +6,7 @@ from common.variables import MAX_PACKAGE_LENGTH, ENCODING
 
 def get_message(sock: socket):
     '''
-    Утилита приема и декодирования сообщения, принмает байты, возвращает словарь или ошибку значения
+    Утилита приема и декодирования сообщения, принимает байты, возвращает словарь или ошибку значения
     :param sock: socket
     :return: dict
     '''
