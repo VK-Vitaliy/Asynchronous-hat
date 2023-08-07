@@ -2,9 +2,8 @@ import json
 import unittest
 from socket import socket, AF_INET, SOCK_STREAM, SOL_SOCKET, SO_REUSEADDR
 
-from common.utils import send_message, get_message
-from common.variables import DEFAULT_IP_ADDRESS, DEFAULT_PORT, MAX_CONNECTIONS, ACTION, TIME, USER, ACCOUNT_NAME, \
-    RESPONSE, ERROR, ENCODING
+from common.utils import get_message
+from common.variables import DEFAULT_IP_ADDRESS, DEFAULT_PORT, MAX_CONNECTIONS, TIME, RESPONSE, ENCODING
 
 
 class PreConfigServer:
