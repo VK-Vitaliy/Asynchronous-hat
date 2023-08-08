@@ -1,4 +1,8 @@
+import logging
+
 # Порт по умолчанию для сетевого взаимодействия
+import logging
+
 DEFAULT_PORT = 7777
 # IP адрес по умолчанию для подключения клиента
 DEFAULT_IP_ADDRESS = '127.0.0.1'
@@ -20,4 +24,5 @@ PRESENCE = 'presence'
 RESPONSE = 'response'
 ERROR = 'error'
 
-
+# Текущий уровень логирования
+LOGGING_LEVEL = logging.DEBUG
