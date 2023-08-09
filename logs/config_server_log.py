@@ -3,6 +3,8 @@ import sys
 import logging.handlers
 from common.variables import LOGGING_LEVEL
 
+sys.path.append('../')
+
 # создаём формировщик логов (formatter):
 SERVER_FORMATTER = logging.Formatter('%(asctime)s %(levelname)-8s %(filename)s %(message)s')
 
@@ -26,7 +28,7 @@ LOGGER.addHandler(LOG_FILE)
 LOGGER.setLevel(LOGGING_LEVEL)
 
 # отладка
-if __name__ == "'__main__":
+if __name__ == '__main__':
     LOGGER.critical('Критическая ошибка')
     LOGGER.error('Ошибка')
     LOGGER.debug('Отладочная информация')

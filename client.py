@@ -9,11 +9,13 @@ from common.utils import send_message, get_message
 from common.variables import DEFAULT_IP_ADDRESS, DEFAULT_PORT, PRESENCE, ACTION, TIME, USER, ACCOUNT_NAME, RESPONSE, \
     ERROR
 from errors import ReqFieldMissingError
+from logs.decorator import log
 
 # Инициализация клиентского логера
 CLIENT_LOGGER = logging.getLogger('client')
 
 
+@log
 def create_presence(account_name='Guest'):
     '''
     Функция возвращает сервисное сообщение к серверу о присутствии.
@@ -32,6 +34,7 @@ def create_presence(account_name='Guest'):
     return out
 
 
+@log
 def process_ans(message):
     '''
     Функция разбирает ответ севера
@@ -46,6 +49,7 @@ def process_ans(message):
     raise ValueError
 
 
+@log
 def create_arg_parser():
     """
     Создаём парсер аргументов коммандной строки
