@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b28ccef4-f89c-4c75-89bb-db58b6cf7f79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/logs/decorator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/config_client_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/logs/config_client_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/config_server_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/logs/config_server_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +60,7 @@
       <recent name="C:\Users\Vit\PycharmProjects\AsynchronousChat\task1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.config_client_log">
+  <component name="RunManager" selected="Python.config_server_log (1)">
     <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AsynchronousChat" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,10 +173,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.config_client_log" />
         <item itemvalue="Python.config_server_log (1)" />
         <item itemvalue="Python.client" />
         <item itemvalue="Python.server" />
+        <item itemvalue="Python.config_client_log" />
         <item itemvalue="Python.utils" />
       </list>
     </recent_temporary>
@@ -199,7 +195,7 @@
       <workItem from="1687167081099" duration="9488000" />
       <workItem from="1687179909225" duration="301000" />
       <workItem from="1691396872036" duration="5705000" />
-      <workItem from="1691569921307" duration="661000" />
+      <workItem from="1691569921307" duration="966000" />
     </task>
     <servers />
   </component>
@@ -208,7 +204,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AsynchronousChat$task_1.coverage" NAME="task_1 Coverage Results" MODIFIED="1686652351425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AsynchronousChat$client.coverage" NAME="client Coverage Results" MODIFIED="1691491436849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AsynchronousChat$client.coverage" NAME="client Coverage Results" MODIFIED="1691570747777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AsynchronousChat$utils.coverage" NAME="utils Coverage Results" MODIFIED="1691491313971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/AsynchronousChat$config_server_log__1_.coverage" NAME="config_server_log (1) Coverage Results" MODIFIED="1691491532645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logs" />
     <SUITE FILE_PATH="coverage/AsynchronousChat$task_4.coverage" NAME="task_4 Coverage Results" MODIFIED="1686656269735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
