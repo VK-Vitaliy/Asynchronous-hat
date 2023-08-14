@@ -13,16 +13,19 @@ MAX_PACKAGE_LENGTH = 1024
 # Кодировка проекта
 ENCODING = 'UTF-8'
 
-# Протокол JIM основные ключи:
+# Прококол JIM основные ключи:
 ACTION = 'action'
 TIME = 'time'
 USER = 'user'
 ACCOUNT_NAME = 'account_name'
+SENDER = 'sender'
 
 # Прочие ключи, используемые в протокле
 PRESENCE = 'presence'
 RESPONSE = 'response'
 ERROR = 'error'
+MESSAGE = 'message'
+MESSAGE_TEXT = 'mess_text'
 
 # Текущий уровень логирования
-LOGGING_LEVEL = logging.DEBUG
+LOGGING_LEVEL = logging.INFO
