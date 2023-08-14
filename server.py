@@ -7,11 +7,13 @@ import sys
 from common.utils import get_message, send_message
 from common.variables import DEFAULT_PORT, MAX_CONNECTIONS, ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, RESPONSE, ERROR
 from errors import IncorrectDataRecivedError
+from logs.decorator import log
 
 # Инициализация логирования сервера.
 SERVER_LOGGER = logging.getLogger('server')
 
 
+@log
 def process_client_message(message):
     '''
     Обработчик сообщений от клиентов, принимает словарь - сообщение от клиента, проверяет корректность,
@@ -32,6 +34,7 @@ def process_client_message(message):
     }
 
 
+@log
 def create_arg_parser():
     """
     Парсер аргументов коммандной строки
