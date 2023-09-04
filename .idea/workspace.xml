@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b28ccef4-f89c-4c75-89bb-db58b6cf7f79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/launcher_gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manual.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/descriptor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metaclasses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/variables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/launcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/logs/decorator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +63,7 @@
       <recent name="C:\Users\Vit\PycharmProjects\AsynchronousChat\task1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.launcher">
+  <component name="RunManager" selected="Python.server">
     <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AsynchronousChat" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,10 +176,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.server" />
         <item itemvalue="Python.launcher" />
         <item itemvalue="Python.client" />
         <item itemvalue="Python.thread_simple_1" />
-        <item itemvalue="Python.server" />
         <item itemvalue="Python.config_server_log (1)" />
       </list>
     </recent_temporary>
@@ -206,6 +202,7 @@
       <workItem from="1692013263469" duration="77000" />
       <workItem from="1692259233359" duration="3371000" />
       <workItem from="1692612503989" duration="1389000" />
+      <workItem from="1693821868584" duration="1148000" />
     </task>
     <servers />
   </component>
@@ -227,7 +224,7 @@
     <SUITE FILE_PATH="coverage/AsynchronousChat$config_client_log.coverage" NAME="config_client_log Coverage Results" MODIFIED="1691569989793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logs" />
     <SUITE FILE_PATH="coverage/AsynchronousChat$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1686754082516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task3" />
     <SUITE FILE_PATH="coverage/AsynchronousChat$task_6.coverage" NAME="task_6 Coverage Results" MODIFIED="1686657370588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AsynchronousChat$server.coverage" NAME="server Coverage Results" MODIFIED="1692010691487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AsynchronousChat$server.coverage" NAME="server Coverage Results" MODIFIED="1693822878793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AsynchronousChat$task_3.coverage" NAME="task_3 Coverage Results" MODIFIED="1686655459460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AsynchronousChat$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1686753377382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2" />
     <SUITE FILE_PATH="coverage/AsynchronousChat$config_server_log.coverage" NAME="config_server_log Coverage Results" MODIFIED="1691403028498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/7zO43FFCA73" />
