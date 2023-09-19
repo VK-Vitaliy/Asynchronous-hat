@@ -12,6 +12,10 @@ MAX_CONNECTIONS = 5
 MAX_PACKAGE_LENGTH = 1024
 # Кодировка проекта
 ENCODING = 'UTF-8'
+# Текущий уровень логирования
+LOGGING_LEVEL = logging.INFO
+# База данных для хранения данных сервера:
+SERVER_DATABASE = 'sqlite:///server_base.db3'
 
 # Прококол JIM основные ключи:
 ACTION = 'action'
@@ -28,9 +32,6 @@ ERROR = 'error'
 MESSAGE = 'message'
 MESSAGE_TEXT = 'mess_text'
 EXIT = 'exit'
-
-# Текущий уровень логирования
-LOGGING_LEVEL = logging.INFO
 
 # Словари - ответы:
 # 200
