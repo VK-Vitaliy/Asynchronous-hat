@@ -173,6 +173,7 @@ if __name__ == '__main__':
     # выполняем 'подключение' пользователя
     test_db.user_login('client_1', '192.168.1.4', 8888)
     test_db.user_login('client_2', '192.168.1.5', 7777)
+    test_db.user_login('client_3', '192.168.1.5', 8889)
     # выводим список кортежей - активных пользователей
     print(test_db.active_users_list())
     # выполянем 'отключение' пользователя
@@ -181,5 +182,6 @@ if __name__ == '__main__':
     print(test_db.active_users_list())
     # запрашиваем историю входов по пользователю
     test_db.login_history('client_1')
+    test_db.login_history('client_3')
     # выводим список известных пользователей
     print(test_db.users_list())
