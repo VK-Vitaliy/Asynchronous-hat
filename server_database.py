@@ -48,7 +48,6 @@ class ServerStorage:
 
     def __init__(self, path):
         # Создаём движок базы данных
-        print(path)
         self.database_engine = create_engine(f'sqlite:///{path}', echo=False, pool_recycle=7200,
                                              connect_args={'check_same_thread': False})
 
@@ -95,10 +94,9 @@ class ServerStorage:
                                     Column('accepted', Integer)
                                     )
 
-        # Создаём таблицы
+        # Создаём отображения
         self.metadata.create_all(self.database_engine)
         mapper_registry = registry()
-        # Создаём отображения
         mapper_registry.map_imperatively(self.AllUsers, users_table)
         mapper_registry.map_imperatively(self.ActiveUsers, active_users_table)
         mapper_registry.map_imperatively(self.LoginHistory, user_login_history)
@@ -192,10 +190,10 @@ class ServerStorage:
             return
 
         # Удаляем требуемое
-        print(self.session.query(self.UsersContacts).filter(
+        self.session.query(self.UsersContacts).filter(
             self.UsersContacts.user == user.id,
             self.UsersContacts.contact == contact.id
-        ).delete())
+        ).delete()
         self.session.commit()
 
     # Функция возвращает список известных пользователей со временем последнего входа.
@@ -261,7 +259,7 @@ class ServerStorage:
 
 # Отладка
 if __name__ == '__main__':
-    test_db = ServerStorage('server_base.db3')
+    test_db = ServerStorage()
     test_db.user_login('1111', '192.168.1.113', 8080)
     test_db.user_login('McG2', '192.168.1.113', 8081)
     print(test_db.users_list())

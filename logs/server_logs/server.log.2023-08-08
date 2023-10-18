@@ -1,4 +1,0 @@
-2023-08-08 13:45:32,708 CRITICAL config_server_log.py Критическая ошибка
-2023-08-08 13:45:32,708 ERROR    config_server_log.py Ошибка
-2023-08-08 13:45:32,708 DEBUG    config_server_log.py Отладочная информация
-2023-08-08 13:45:32,708 INFO     config_server_log.py Информационное сообщение
